@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,  sans-serif;
+    box-sizing: border-box;
+}
+section
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+section header
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+section header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a
+{
+    font-size: 14px;
+    color: #111;
+    text-decoration: none;
+}
+section header ul li button
+{
+    padding: 8px 14px;
+    background-color: #4584ef;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section .main
+{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .main .searchbox
+{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+section .main .searchbox .search
+{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    outline: none;
+    border-radius: 1px solid white;
+    font-size: 14px;
+}
+section .main .searchbox .icons
+{
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+section .main .buttons
+{
+    margin-top: 20px;
+}
+section .main .buttons button
+{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+
+
+
+

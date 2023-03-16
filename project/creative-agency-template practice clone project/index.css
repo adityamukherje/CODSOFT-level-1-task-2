@@ -1,0 +1,104 @@
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.carousel-caption 
+{
+    
+    margin-bottom: 60vh;
+    margin-left: 75vh;
+}
+.carousel-inner
+{
+   height: 100vh;
+}
+.carousel-caption h5
+{
+    font-size: 70px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: royalblue;
+    
+}
+.carousel-caption p
+{
+    font-size: 20px;
+    font-style: italic;
+    color: royalblue;
+}
+.card .btn
+{
+    background-color: lightcyan;
+    border: 1px solid black;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.card .btn:hover
+{
+    background-color: gray;
+    font-size: x-large;
+}
+.col p
+{
+    font-style: italic;
+    font-weight: 700;
+}
+.col h1
+{
+    font-weight: 900;
+}
+.row .col
+{
+    cursor: pointer;
+}
+
+
+
+
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: lightcyan;
+    border: 1px solid black;
+    font-size: 20px;
+    transition: 0.2s;
+   width: 10%;
+   height: 15%;
+   text-align: center;
+   margin-left: 45%;
+   margin-top: 1%;
+  }
+  input[type=submit]:hover
+  {
+    background-color: gray;
+    font-size: x-large;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 2%;
+  }
+  
+  /* Floating column for labels: 25% width */
+ 

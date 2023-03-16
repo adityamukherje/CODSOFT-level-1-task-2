@@ -1,0 +1,199 @@
+body
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 2px;
+   
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+}
+.titile
+{
+    font-size: 1rem;
+    margin: 0.3rem;
+}
+.navbar-links ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li
+{
+    list-style: none;
+}
+.navbar-links li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover
+{
+    background-color: gray;
+}
+.hero-image
+{
+    position: relative;
+    height: 30rem;
+    overflow: hidden;
+    background: url(./image/banner.jpg) no-repeat;
+    background-size: cover;
+}
+.comtainer
+{
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 4rem;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.comtainer h1
+{
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+
+}
+form.example input[type=text]
+{
+    padding: 0.1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+    border: 1px solid white;
+    float: left;
+    width: 85%;
+    background: #f1f1f1;
+}
+.image
+{
+    display: block;
+    float: left; 
+    margin: 30px;
+    padding: 95px;
+
+}
+.container
+{
+    margin-top: 5%;
+   
+}
+.container h1
+{
+    text-align: center;
+    text-decoration: turquoise;
+    text-decoration: underline;
+    color: turquoise;
+    margin-bottom: 3%;
+}
+.single-content
+{
+    position: relative;
+    transition: 0.3s;
+    box-shadow: 10px 20px 20px rgb(0, 0, 0, 0.8);
+}
+.single-content .text-content,
+.single-content::after
+{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+}
+.single-content::after
+{
+    content: ' ';
+    display: block;
+    background: crimson;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transform: rotate3d(-1,1,0,100deg);
+    transition: .4s;
+}
+.single-content:hover::after
+{
+    opacity: .9s;
+    transform: rotate3d(0,0,0.0deg);
+}
+.single-content img
+{
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+.text-content
+{
+    top: 45%;
+    opacity: 0;
+    z-index: 1;
+    transform: translate(10%,-30%);
+    transition: .3s;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+}
+.single-content:hover .text-content
+{
+    opacity: 1;
+    transform: translate(0, -50%);
+    transition-delay: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

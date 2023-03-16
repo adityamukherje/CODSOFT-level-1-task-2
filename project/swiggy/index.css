@@ -1,0 +1,92 @@
+body html
+{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.left-side
+{
+    float: left;
+    position: absolute;
+    width: 50%;
+}
+.right-side
+{
+    float: right;
+    position: relative;
+    width: 50%;
+    
+}
+.wrapper
+{
+    display: inline-flex;
+    
+}
+.wrapper .dyanamic
+{
+    font-size: 60px;
+    color: black;
+    font-weight: 400;
+}
+.wrapper .dyanamic
+{
+  margin-left: 50px;
+  height: 90px;
+  line-height: 90px;
+  background: white;
+  overflow: hidden;
+}
+.dyanamic li
+{
+    list-style: none;
+    color: black;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 20s steps(4) infinite;
+}
+@keyframes slide
+{
+    100%
+    {
+        top: -360px;
+    }
+}
+
+.dyanamic li span
+{
+    position: relative;
+}
+.dyanamic li span::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-left: 1px;
+    animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing
+{
+    100%
+    {
+        left: 100%;
+        margin: 0 -50 0 50;
+    }
+}
+.left
+{
+    float: left;
+    position: absolute;
+    width: 40%;
+}
+.right
+{
+    float: right;
+    position: relative;
+    width: 60%;
+    
+}
